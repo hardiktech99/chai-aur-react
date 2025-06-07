@@ -1,0 +1,26 @@
+.service-icon{
+    .list-group-item{
+        flex-direction: column;
+        .title{
+            font-size: 1.2rem;
+            .description{
+                font-size: 16px !important;
+                text-transform: capitalize;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+
+.service-icon .list-group-item{
+    flex-direction: column;
+}
+.service-icon .list-group-item .title{
+    font-size: 1.2rem;
+}
+.service-icon .description{
+    font-size: 16px !important;
+    text-transform: capitalize;
+    font-weight: 400;
+}
