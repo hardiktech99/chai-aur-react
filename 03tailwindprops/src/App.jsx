@@ -10,13 +10,15 @@ function App() {
     userName:"Hardik",
     age:21
   }
-  let newArr = [1,2,3]
+  // let newArr = [1,2,3]
 
   return (
     <>
-      <h1 className='bg-green-700 text-white p-4 rounded-xl mb-4 '>Tailwind Test</h1>
-      <Card userName="chai aur code" position="UIUX Designer"/>
-      <Card userName="Roshardy"/>
+      <h1 className='bg-orange-500 text-black p-4  mb-4 '>Tailwind Test</h1>
+      <Card userName="Hardik" position="UIUX Designer"/>
+      <Card userName="Roshni" position="Doctor"/>
+      <Card userName="Jay" position="Web Developer"/>
+      <Card userName="Aarya" position="Jr Developer"/>
       
     </>
   )
